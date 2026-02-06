@@ -23,26 +23,26 @@ All steps follow **CDISC principles** and **regulatory expectations**, implement
 ##  Project Structure
 
 clinical-statistical-programming/
-│
 ├── raw_data/
-│ ├── raw_dm.csv # Raw demographics
-│ ├── raw_ae.csv # Raw adverse events
-│ └── raw_lb.csv # Raw lab data
+│   ├── raw_dm.csv        # Raw demographics
+│   ├── raw_ae.csv        # Raw adverse events
+│   └── raw_lb.csv        # Raw lab data
 │
 ├── sdtm/
-│ ├── sdtm_dm.csv # SDTM DM domain
-│ ├── sdtm_ae.csv # SDTM AE domain
-│ └── sdtm_lb.csv # SDTM LB domain
+│   ├── sdtm_dm.csv       # SDTM DM domain
+│   ├── sdtm_ae.csv       # SDTM AE domain
+│   └── sdtm_lb.csv       # SDTM LB domain
 │
 ├── adam/
-│ ├── adsl.csv # Subject-level analysis dataset
-│ ├── adae.csv # Adverse events analysis dataset
-│ └── adlb.csv # Lab analysis dataset
+│   ├── adsl.csv          # Subject-level analysis dataset
+│   ├── adae.csv          # Adverse events analysis dataset
+│   └── adlb.csv          # Lab analysis dataset
 │
 ├── tfl/
-│ └── clinical_TFLs.xlsx # Submission-style analysis tables
+│   └── clinical_TFLs.xlsx # Submission-style analysis tables
 │
 └── README.md
+
 
 
 
