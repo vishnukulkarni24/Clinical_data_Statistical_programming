@@ -1,0 +1,89 @@
+
+## Workflow Implemented
+
+### 1️ Raw → SDTM Conversion
+- Standardized raw clinical data into SDTM-compliant structure
+- Added regulatory variables such as `STUDYID`, `DOMAIN`, `USUBJID`
+- Maintained traceability between raw and SDTM datasets
+
+**Domains created:**
+- DM (Demographics)
+- AE (Adverse Events)
+- LB (Laboratory Data)
+
+---
+
+### 2️ SDTM → ADaM Dataset Creation
+Built analysis-ready datasets used by statisticians:
+
+- **ADSL** – Subject-level analysis dataset
+- **ADAE** – Adverse events analysis dataset
+- **ADLB** – Laboratory analysis dataset
+
+Each dataset follows the **one-record-per-analysis-unit** principle.
+
+---
+
+### 3 Derivations Performed
+
+Common industry derivations were implemented, including:
+
+- Age group categorization (`AGEGRP`)
+- Analysis population flags (`SAFFL`, `ITTFL`)
+- Numeric severity derivation (`ASEVNUM`)
+- Serious adverse event flag (`SAEFL`)
+- Baseline lab values (`BASE`)
+- Change from baseline (`CHG`)
+
+These derivations ensure datasets are **analysis-ready**.
+
+---
+
+### 4️ TFL Generation (Tables)
+
+Created standard analysis tables used in clinical reporting:
+
+- **Demographic summary**
+- **Adverse event frequency tables**
+- **Laboratory shift and change-from-baseline summaries**
+
+---
+
+### 5 Submission-Style Output
+
+- Generated a structured Excel file with separate sheets for each table
+- Output is formatted for **statistical review and regulatory submission**
+
+---
+
+## Tools & Skills Demonstrated
+
+- Python (pandas, numpy)
+- Clinical data standards (SDTM, ADaM concepts)
+- Statistical programming logic
+- Data derivation and traceability
+- Regulatory-style reporting
+
+---
+
+## Purpose of This Repository
+
+This repository represents my **day-to-day practice in Statistical Programming**, designed to:
+
+- Strengthen understanding of clinical data standards
+- Simulate real project workflows
+- Prepare for Statistical Programmer / Clinical Data roles
+- Demonstrate practical skills to hiring managers
+
+---
+
+## Note
+
+This project uses **synthetic clinical data** created solely for learning and demonstration purposes.
+
+---
+
+## Author
+
+**Vishnu Kulkarni**  
+Statistical Programming | Clinical Data | Python  
