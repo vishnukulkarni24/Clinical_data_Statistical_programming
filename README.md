@@ -1,4 +1,4 @@
-# Clinical Statistical Programming – End-to-End Workflow (Python)
+# Clinical Statistical Programming –
 
 This repository demonstrates my **regular hands-on practice in Statistical Programming**, following industry-standard clinical trial workflows used in pharmaceutical and CRO environments.
 
